@@ -1,0 +1,207 @@
+[
+    {
+        "path": "404.html",
+        "type": "file",
+        "md5": "118ddf19b5bf43b73bac89fc1361f10d"
+    },
+    {
+        "path": "accordion.html",
+        "type": "file",
+        "md5": "d20974d89eae299649ff5836fe31134d"
+    },
+    {
+        "path": "admin.html",
+        "type": "file",
+        "md5": "76b0e9e1c4d850872f9a09bac9635168"
+    },
+    {
+        "path": "ags.html",
+        "type": "file",
+        "md5": "a2b70feef8ceebc33f52f87d5bd50ce1"
+    },
+    {
+        "path": "andere-formulare-und-dokumente.html",
+        "type": "file",
+        "md5": "c0bb5d6bca8e0a93fc0fd8f31b166af8"
+    },
+    {
+        "path": "apartment.html",
+        "type": "file",
+        "md5": "06b7c10f9a79a5b79a39f548c2e3a12f"
+    },
+    {
+        "path": "assets",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/css",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/css/editor.css",
+        "type": "file",
+        "md5": "4202808df745f2ac7ab250606fa0d272"
+    },
+    {
+        "path": "/assets/css/main.css",
+        "type": "file",
+        "md5": "d7f55818be3fe8f8c9bd739dcda09f1a"
+    },
+    {
+        "path": "/assets/css/style.css",
+        "type": "file",
+        "md5": "31e315bae1ca6c48b2bce3374b9b55d0"
+    },
+    {
+        "path": "assets/dynamic",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/js",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/js/scripts.js",
+        "type": "file",
+        "md5": "e9e5c3efbaa696d1490988cf5b30e23b"
+    },
+    {
+        "path": "/assets/js/scripts.min.js",
+        "type": "file",
+        "md5": "700105c316933a8202041b6415abb233"
+    },
+    {
+        "path": "/assets/js/svg-fix.js",
+        "type": "file",
+        "md5": "9b7d020c55e2b4f77ab40c97f88f9ff4"
+    },
+    {
+        "path": "/assets/js/svg-map.js",
+        "type": "file",
+        "md5": "ff4392540fcf4c3d3f5e03806e112816"
+    },
+    {
+        "path": "assets/svg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/svg/svg-map.svg",
+        "type": "file",
+        "md5": "cf04dfd5c3cc64e0be44692fe7d976a6"
+    },
+    {
+        "path": "authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/saw",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/saw/index.html",
+        "type": "file",
+        "md5": "4bfebf610d4b50c1e6a526e56d12a22c"
+    },
+    {
+        "path": "belegung.html",
+        "type": "file",
+        "md5": "763063cf868a8656009938487fd6a109"
+    },
+    {
+        "path": "blog.html",
+        "type": "file",
+        "md5": "547deefbc33d567d000338825b899b41"
+    },
+    {
+        "path": "datenschutzerklaerung.html",
+        "type": "file",
+        "md5": "6207a3926db1ccfad95fd41ef7f17a84"
+    },
+    {
+        "path": "faq.html",
+        "type": "file",
+        "md5": "ee772237d99e7d79e457742449e0cbb6"
+    },
+    {
+        "path": "impressum.html",
+        "type": "file",
+        "md5": "e3b82ddb4531adf70319a9c555f2b63e"
+    },
+    {
+        "path": "index.html",
+        "type": "file",
+        "md5": "1ddc6779f02385c42ae2d13a9f779750"
+    },
+    {
+        "path": "kontaktformular.html",
+        "type": "file",
+        "md5": "7187268367113c7d36f347e0dda906c0"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/SaW_Logo_adaptive.svg",
+        "type": "file",
+        "md5": "7fb84dcb48bec69d666c4579bcb61611"
+    },
+    {
+        "path": "mehr-bars.html",
+        "type": "file",
+        "md5": "bfda972da470a3b8e03deba768714690"
+    },
+    {
+        "path": "menue-fuer-sprache-und-socialmedia-stuff.html",
+        "type": "file",
+        "md5": "5ed9c5a3a8305637a89beca2f4a8665f"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "b6216d61c03e6ce0c9aea6ca7808f7ca"
+    },
+    {
+        "path": "tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/index.html",
+        "type": "file",
+        "md5": "d469671973215361447fb3891d4e055d"
+    },
+    {
+        "path": "triangel.html",
+        "type": "file",
+        "md5": "44bd180efc1ec717e5dcf3295043f6c7"
+    },
+    {
+        "path": "untervermietung.html",
+        "type": "file",
+        "md5": "b01fddf1d8b9574222d2d4c1e84c951a"
+    },
+    {
+        "path": "verein.html",
+        "type": "file",
+        "md5": "c2208d8a516fb474e91a77fceb8a4441"
+    },
+    {
+        "path": "wohnheim.html",
+        "type": "file",
+        "md5": "3ca5ca83f885604eb17acc1142323b1a"
+    }
+]
