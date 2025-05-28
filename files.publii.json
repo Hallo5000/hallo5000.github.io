@@ -2,27 +2,27 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "7328235939dabfa7860a234adc98ea45"
+        "md5": "a65c50701481d276dae27b1c7d2cbb02"
     },
     {
         "path": "accordion.html",
         "type": "file",
-        "md5": "dc78586c28f6229eed207f109d9e34fc"
+        "md5": "9c93854739896cc064f57ba8ceeac235"
     },
     {
         "path": "ags.html",
         "type": "file",
-        "md5": "8879e87fd1fc024947837c84a947b4bc"
+        "md5": "2b61c06b93c71758c508aa8323a95688"
     },
     {
         "path": "andere-formulare-und-dokumente.html",
         "type": "file",
-        "md5": "6cf7e058668d9fd6fc7d28613d6da1dc"
+        "md5": "63aba809f14e52ef38e454c7b35c1bae"
     },
     {
         "path": "apartment.html",
         "type": "file",
-        "md5": "8883795d430d42260d471c1e7bcbae09"
+        "md5": "69e5e7c47feb103bea98b79e677de263"
     },
     {
         "path": "assets",
@@ -47,7 +47,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "a28c89c3840a3f9b8ae1793fee20b90d"
+        "md5": "c8834b87a5a4060d53d39180f60c475e"
     },
     {
         "path": "assets/dynamic",
@@ -102,42 +102,72 @@
     {
         "path": "/authors/saw/index.html",
         "type": "file",
-        "md5": "ad8770e12e73a7359de8905fb54c6ad8"
+        "md5": "f8e24fc341131b5f3bb4c9b10db73358"
+    },
+    {
+        "path": "Bad_01.09.2015.pdf",
+        "type": "file",
+        "md5": "aaf5ef63e88507ce987b6478e9d70289"
     },
     {
         "path": "belegung.html",
         "type": "file",
-        "md5": "335855e48cb644a8a1fd9b334022fb02"
+        "md5": "fb4313920c78c601a9d7d922c4f72c7b"
     },
     {
         "path": "blog.html",
         "type": "file",
-        "md5": "086f8192d74b29cc0b946f4e7a5f93a7"
+        "md5": "6d63eafc1004a86b58e34708137acd98"
     },
     {
         "path": "datenschutzerklaerung.html",
         "type": "file",
-        "md5": "a786ba0d11ff8e90ba68850c4f580f98"
+        "md5": "6ee130b7a0425d0e1aac05fe490883d8"
+    },
+    {
+        "path": "einfach_oder_ordentlich-ausfüllbar.pdf",
+        "type": "file",
+        "md5": "f44fab43dbd1275b86ddc3a7e3420116"
+    },
+    {
+        "path": "einfach_oder_ordentlich.pdf",
+        "type": "file",
+        "md5": "9d9f1920752223c1625caf0185890006"
+    },
+    {
+        "path": "einzugsflyer_web.pdf",
+        "type": "file",
+        "md5": "5913348fb41f4d1f0d31392a27452460"
     },
     {
         "path": "faq.html",
         "type": "file",
-        "md5": "8f614cc31a55778e612d182f53ddb586"
+        "md5": "769cc61e447baa6571666155b6f9bde3"
+    },
+    {
+        "path": "Grundriss_01.09.2015.pdf",
+        "type": "file",
+        "md5": "3171254f5000766616b42fa893df5595"
+    },
+    {
+        "path": "Grundriss_unmöbliert.pdf",
+        "type": "file",
+        "md5": "166bd6f07fadd54bb7bff4ef07412d76"
     },
     {
         "path": "impressum.html",
         "type": "file",
-        "md5": "b5e4d3bf87dd9064e8d1b534b70fff1b"
+        "md5": "502ee5a52aa419622cbf24beb296fbe6"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "b3881ffb226f0a8268aa1092b385ffde"
+        "md5": "8f98e991a1a92117052ecd277f0e41d1"
     },
     {
         "path": "kontaktformular.html",
         "type": "file",
-        "md5": "61442c3f602c26a42f8fed61fbeaa6e4"
+        "md5": "5615f2300d9cfb4b3c6c44aa2b7f9d82"
     },
     {
         "path": "media",
@@ -155,14 +185,49 @@
         "md5": "7fb84dcb48bec69d666c4579bcb61611"
     },
     {
+        "path": "mehr-bars.html",
+        "type": "file",
+        "md5": "adf8b06f6190d41ef0ddc63f988675d7"
+    },
+    {
         "path": "menue-fuer-sprache-und-socialmedia-stuff.html",
         "type": "file",
-        "md5": "02ae27a2c4732dbeda5f7e7ef9ce5760"
+        "md5": "df6e1298d9274fa6fcb3b320cc87e2da"
+    },
+    {
+        "path": "Nutzungsordnung_2011.11.04.pdf",
+        "type": "file",
+        "md5": "1b7ff1932990c253db49767adb9be9c5"
     },
     {
         "path": "robots.txt",
         "type": "file",
         "md5": "b6216d61c03e6ce0c9aea6ca7808f7ca"
+    },
+    {
+        "path": "Satzung_Aktuell.pdf",
+        "type": "file",
+        "md5": "df575fb0e18b25d0c6bd4bc704cb02cd"
+    },
+    {
+        "path": "sawev_beitritt_merkblatt.pdf",
+        "type": "file",
+        "md5": "e4f4ff47a95c200c7764d17ba6a28891"
+    },
+    {
+        "path": "SAW_eV_Kurzinfos.pdf",
+        "type": "file",
+        "md5": "1663b116a9d7ff48d6f8f46dbacfaf09"
+    },
+    {
+        "path": "SAW_eV_Satzung_Stand_022012.pdf",
+        "type": "file",
+        "md5": "8ed515e79d7ea739591bf3d2d27bf678"
+    },
+    {
+        "path": "SEPA-ausfüllbar.pdf",
+        "type": "file",
+        "md5": "72a57c55c487f0b0ab4cae4143fc4b91"
     },
     {
         "path": "tags",
@@ -172,26 +237,41 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "0938f89dae3ab0821a91baac69fbba6c"
+        "md5": "9174e303750c5bd2c4a852ed753cc817"
     },
     {
         "path": "triangel.html",
         "type": "file",
-        "md5": "cc7f959b0757d33cf2c6de476eccb2ef"
+        "md5": "1f5623ebd4950904edfb8a42f886435a"
     },
     {
         "path": "untervermietung.html",
         "type": "file",
-        "md5": "a2efaf96093543a253c0451f1ef08839"
+        "md5": "ec691e5e2dd4197bd70e4313728da1e0"
     },
     {
         "path": "verein.html",
         "type": "file",
-        "md5": "b62db101eb86316fa2b8dd79a8547fc2"
+        "md5": "e847dcefdacadc2c6b33a39bb16228e4"
+    },
+    {
+        "path": "Vordruck-Kündigung-1.pdf",
+        "type": "file",
+        "md5": "29e5212fd178dff8be24ca3b7869a773"
     },
     {
         "path": "wohnheim.html",
         "type": "file",
-        "md5": "262d8ac67d325d8a20fb366463ae808d"
+        "md5": "122b98cf232bf5d3f48f6c1763d07024"
+    },
+    {
+        "path": "Zimmerabwicklung_möbliert_01.09.2015.pdf",
+        "type": "file",
+        "md5": "42a698041c938c8405bb6b62162c1919"
+    },
+    {
+        "path": "Zimmerabwicklung_unmöbliert_01.09.2015.pdf",
+        "type": "file",
+        "md5": "31222375be1cbbdb37a94be6cb38cba2"
     }
 ]
