@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="de">
+	    <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>Dorm - SAW - Studenten am Weißenberg </title>
-        <meta name="description" content="Unser Wohnheim liegt etwa 10 min Fußweg vom RWTH Hauptgebäude entfernt in einem Wohngebiet. Die Busanbindung ist durch die Linien 13 (verkehrt auf dem Außenring) und 12/22 (verkehren zwischen Campus Melaten und Stolberg) sehr gut. Vermietet werden hier etwa 17 qm große Einzelapartments mit Miniküche&hellip;">
+        <meta name="description" content="Our dorm houses 174 students of various nationalities and academic disciplines. It is located halfway between the city centre and the university hospital in a residential area, and is a 10 min walk from the RWTH main building. Bus lines 12/22/23 connect our dorm at&hellip;">
          
         <meta name="generator" content="Publii Open-Source CMS for Static Site">
 
@@ -14,7 +14,7 @@
         
         
         <link rel="stylesheet" href="./../../assets/css/style.css?v=d7dd95116a91c841492108d6b1cae23e">
-        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"./../../en/wohnheim-en/"},"headline":"Dorm","datePublished":"2025-05-30T18:06+02:00","dateModified":"2025-05-30T21:48+02:00","image":{"@type":"ImageObject","url":"./../../media/website/SaW_Logo_adaptive.svg","height":3889,"width":3889},"description":"Unser Wohnheim liegt etwa 10 min Fußweg vom RWTH Hauptgebäude entfernt in einem Wohngebiet. Die Busanbindung ist durch die Linien 13 (verkehrt auf dem Außenring) und 12/22 (verkehren zwischen Campus Melaten und Stolberg) sehr gut. Vermietet werden hier etwa 17 qm große Einzelapartments mit Miniküche&hellip;","author":{"@type":"Person","name":"SAW","url":"./../../authors/saw/"},"publisher":{"@type":"Organization","name":"SAW","logo":{"@type":"ImageObject","url":"./../../media/website/SaW_Logo_adaptive.svg","height":3889,"width":3889}}}</script>
+        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"./../../en/wohnheim-en/"},"headline":"Dorm","datePublished":"2025-05-30T18:06+02:00","dateModified":"2025-05-31T21:28+02:00","image":{"@type":"ImageObject","url":"./../../media/website/SaW_Logo_adaptive.svg","height":3889,"width":3889},"description":"Our dorm houses 174 students of various nationalities and academic disciplines. It is located halfway between the city centre and the university hospital in a residential area, and is a 10 min walk from the RWTH main building. Bus lines 12/22/23 connect our dorm at&hellip;","author":{"@type":"Person","name":"SAW","url":"./../../authors/saw/"},"publisher":{"@type":"Organization","name":"SAW","logo":{"@type":"ImageObject","url":"./../../media/website/SaW_Logo_adaptive.svg","height":3889,"width":3889}}}</script>
         <noscript>
             <style>
                 img[loading] {
@@ -48,471 +48,509 @@
 
 <script type="text/javascript">
 //<![CDATA[
+	function getPrevLang(){
+		var currentLang = localStorage.getItem("currentLang") || "de";
+		if(possibleLangs.includes(currentLang)){
+			localStorage.setItem("currentLang", currentLang);
+		}else{
+			currentLang = "de";
+			localStorage.setItem("currentLang", currentLang);
+		}
+		document.getElementsByTagName("html")[0].setAttribute("lang", currentLang);
+		langchange(currentLang);
+	}
+	
 	let possibleLangs = ['en', 'de'];
   function langchange(lang){
   	let URL = window.location.href;
 		var newURL = "";
-		if(URL.includes("/home-")){
+		if(URL.includes("/home-") && lang == "de"){
 			possibleLangs.forEach(returnToHome);
 			function returnToHome(x){
 				if(URL.includes("/"+x+"/")){
 					newURL = URL.replace("/"+x+"/home-"+x+"/index.html", "/index.html");
 				}
 			}
-			window.location.assign(newURL);
+			localStorage.setItem("currentLang", lang);
+			if(URL != newURL) window.location.assign(newURL);
 			return;
 		}
 		if(URL.includes("/de/")){
-			newURL = URL.replace("/de/","/en/");
-			newURL = newURL.replace("-de/","-en/");
+			newURL = URL.replace("/de/","/"+lang+"/");
+			newURL = newURL.replace("-de/","-"+lang+"/");
 		}else if(URL.includes("/en/")){
-			newURL = URL.replace("/en/", "/de/");
-			newURL = newURL.replace("-en/", "-de/");
-		}else{
+			newURL = URL.replace("/en/", "/"+lang+"/");
+			newURL = newURL.replace("-en/", "-"+lang+"/");
+		}else if(window.location.origin == URL || window.location.origin+"/" == URL){
+			if(lang=="de") return;
+			newURL = window.location.origin+"/"+lang+"/home-"+lang+"/index.html";
+		}
+		else{
 			if(lang == "de") return;
 			newURL = URL.replace("/index.html", "/"+lang+"/home-"+lang+"/index.html");
-			window.location.assign(newURL);
 		}
+		localStorage.setItem("currentLang", lang);
     if(URL != newURL) window.location.assign(newURL);
   }
   //]]>
+</script>
+
+<script type="text/javascript" defer>
+//<![CDATA[
+	var currentLang = localStorage.getItem("currentLang") || "de";
+	if(possibleLangs.includes(currentLang)){
+		localStorage.setItem("currentLang", currentLang);
+	}else{
+		currentLang = "de";
+		localStorage.setItem("currentLang", currentLang);
+	}
+	/* wird jetzt durch head.hbs geregelt document.getElementsByTagName("html")[0].setAttribute("lang", currentLang);*/
+	langchange(currentLang);
+//]]>
 </script><header class="top js-header">
    <a class="logo" href="./../../">
          <img src="./../../media/website/SaW_Logo_adaptive.svg" alt="SAW - Studenten am Weißenberg" width="3889" height="3889">
    </a>
-         <nav class="navbar js-navbar">
-            <button
-               class="navbar__toggle js-toggle"
-               aria-label="[MISSING TRANSLATION]"
-               aria-haspopup="true"
-               aria-expanded="false">
-               <span class="navbar__toggle-box">
-                  <span class="navbar__toggle-inner">[MISSING TRANSLATION]</span>
-               </span>
-            </button>
-          <ul class="navbar__menu">
-                   <li>
-                     <a
-                        href="./../../"
-                           target="_self"
-      >
-                        Home
-                    </a>
-      
-               </li>
-                   <li>
-                     <a
-                        href="./../../de/verein-de/"
-                           target="_self"
-      >
-                        Verein
-                    </a>
-      
-               </li>
-                   <li>
-                     <a
-                        href="./../../de/wohnheim-de/"
-                           target="_self"
-      >
-                        Wohnheim
-                    </a>
-      
-               </li>
-                   <li>
-                     <a
-                        href="./../../de/apartment-de/"
-                           target="_self"
-      >
-                        Apartment
-                    </a>
-      
-               </li>
-                   <li class="has-submenu">
-                     <a
-                        href="./../../de/belegung-de/"
-                           target="_self"
-                           aria-haspopup="true"
+         
+            <nav class="navbar js-navbar">
+               <button
+                  class="navbar__toggle js-toggle"
+                  aria-label="[MISSING TRANSLATION]"
+                  aria-haspopup="true"
+                  aria-expanded="false">
+                  <span class="navbar__toggle-box">
+                     <span class="navbar__toggle-inner">[MISSING TRANSLATION]</span>
+                  </span>
+               </button>
+             <ul class="navbar__menu">
+                      <li>
+                        <a
+                           href="./../../en/home-en/"
+                              target="_self"
+         >
+                           Home
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="./../../en/verein-en/"
+                              target="_self"
+         >
+                           Association
+                       </a>
+         
+                  </li>
+                      <li class="active">
+                        <a
+                           href="./../../en/wohnheim-en/"
+                              target="_self"
+         >
+                           Dorm
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="./../../en/apartment-en/"
+                              target="_self"
+         >
+                           Apartment
+                       </a>
+         
+                  </li>
+                      <li class="has-submenu">
+                        <a
+                           href="./../../en/belegung-en/"
+                              target="_self"
+                              aria-haspopup="true"
+                           >
+                           Occupancy
+                       </a>
+         
+                            <ul class="navbar__submenu level-2" aria-hidden="true" >
+                                     <li>
+                                       <a
+                                          href="https://bewerberportal.stw.rwth-aachen.de/"
+                                             target="_blank"
                         >
-                        Belegung
-                    </a>
-      
-                         <ul class="navbar__submenu level-2" aria-hidden="true" >
-                                  <li>
-                                    <a
-                                       href="https://bewerberportal.stw.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Bewerbung
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="./../../de/andere-formulare-und-dokumente-de/"
-                                          target="_self"
-                     >
-                                       Andere Formulare und Dokumente
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="./../../de/untervermietung-de/"
-                                          target="_self"
-                     >
-                                       Untervermietung
-                                   </a>
-                     
-                              </li>
-                         </ul>
-               </li>
-                   <li>
-                     <a
-                        href="./../../de/ags-de/"
-                           target="_self"
-      >
-                        AGs
-                    </a>
-      
-               </li>
-                   <li>
-                     <a
-                        href="./../../de/faq-de/"
-                           target="_self"
-      >
-                        FAQ
-                    </a>
-      
-               </li>
-                   <li>
-                     <a
-                        href="./../../de/blog-de/"
-                           target="_self"
-      >
-                        Blog
-                    </a>
-      
-               </li>
-                   <li>
-                     <a
-                        href="./../../de/triangel-de/"
-                           target="_self"
-      >
-                        Triangel
-                    </a>
-      
-               </li>
-                   <li class="has-submenu">
-                     <span 
-                        class="is-separator"
-                           aria-haspopup="true"
+                                          Application
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="./../../en/andere-formulare-und-dokumente-en/"
+                                             target="_self"
                         >
-                        Weitere Wohnheime
-                     </span>
-      
-                         <ul class="navbar__submenu level-2" aria-hidden="true" >
-                                  <li>
-                                    <a
-                                       href="http://www.b19.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Bärenstraße 19
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.baer.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Bärenstraße 5
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.bauhuette.fh-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Bayernallee
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.faho.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       FAHO Heim
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.farue.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Familienwohnheim Rütscher Straße
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.hbs.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Hainbuchenstraße
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.halifax.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Halifaxstraße
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.hilton.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Hilton
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://wohnheim-juelich.npage.de/"
-                                          target="_blank"
-                     >
-                                       Jan von Werth Straße (Jülich)
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.kawo1.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Kastanienweg 1
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.kawo2.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Kastanienweg 2
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="https://www.kawo3.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Kastanienweg 3
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="https://www.kullenhof.de"
-                                          target="_blank"
-                     >
-                                       Kullenhof
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.mmweg.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Mattschö Moll Weg
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.oih.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Otto Intze Haus (Türme)
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.oph.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Otto Petersen Haus (Türme)
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.woschi.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Schillerstraße
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.seilgraben.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Seilgraben
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="https://www.scj1.de"
-                                          target="_blank"
-                     >
-                                       Solar Campus (Jülich)
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="https://www.solar-campus-2.de/"
-                                          target="_blank"
-                     >
-                                       Solar Campus II (Jülich)
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://www.dorf.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Studentendorf
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="https://www2.weh.rwth-aachen.de"
-                                          target="_blank"
-                     >
-                                       WEH &amp; TvK (Die Türme)
-                                   </a>
-                     
-                              </li>
-                         </ul>
-               </li>
-                   <li class="has-submenu">
-                     <span 
-                        class="is-separator"
-                           aria-haspopup="true"
+                                          Other forms and documents
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="./../../en/untervermietung-en/"
+                                             target="_self"
                         >
-                        Sonstiges
-                     </span>
-      
-                         <ul class="navbar__submenu level-2" aria-hidden="true" >
-                                  <li>
-                                    <a
-                                       href="http://intranet.saw.rwth-aachen.de"
-                                          target="_blank"
-                     >
-                                       Intranet
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="https://www.studierendenwerk-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Studierendenwerk Aachen
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="https://bewerberportal.stw.rwth-aachen.de/"
-                                          target="_blank"
-                     >
-                                       Studierendenwerk Bewerberportal
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="https://www.triangelac.de"
-                                          target="_blank"
-                     >
-                                       Triangel
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="www.wohnheime.rwth-aachen.de"
-                                          target="_blank"
-                     >
-                                       WHR Aachen
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="./../../de/impressum-de/"
-                                          target="_self"
-                     >
-                                       Impressum
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="./../../de/datenschutzerklaerung-de/"
-                                          target="_self"
-                     >
-                                       Datenschutzerklärung
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="./../../de/kontaktformular-de/"
-                                          target="_self"
-                     >
-                                       Kontaktformular
-                                   </a>
-                     
-                              </li>
-                                  <li>
-                                    <a
-                                       href="http://aachen.wikia.com/wiki/Wohnheimbars"
-                                          target="_blank"
-                     >
-                                       Wohnheimbars in Aachen
-                                   </a>
-                     
-                              </li>
-                         </ul>
-               </li>
-                   <li class="mobile-menu-fix">
-                     <span 
-                        class="is-separator"
-      >
-                        .
-                     </span>
-      
-               </li>
-          </ul>
-         </nav>
+                                          Subletting
+                                      </a>
+                        
+                                 </li>
+                            </ul>
+                  </li>
+                      <li>
+                        <a
+                           href="./../../en/ags-en/"
+                              target="_self"
+         >
+                           Working Groups
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="./../../en/faq-en/"
+                              target="_self"
+         >
+                           FAQ
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="./../../en/blog-en/"
+                              target="_self"
+         >
+                           Blog
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="./../../en/triangel-en/"
+                              target="_self"
+         >
+                           Triangel
+                       </a>
+         
+                  </li>
+                      <li class="has-submenu">
+                        <span 
+                           class="is-separator"
+                              aria-haspopup="true"
+                           >
+                           Other Dorms
+                        </span>
+         
+                            <ul class="navbar__submenu level-2" aria-hidden="true" >
+                                     <li>
+                                       <a
+                                          href="http://www.b19.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Bärenstraße 19
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.baer.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Bärenstraße 5
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.bauhuette.fh-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Bayernallee
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.faho.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          FAHO Dorm
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.farue.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Familydorm Rütscher Straße
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.hbs.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Hainbuchenstraße
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.halifax.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Halifaxstraße
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.hilton.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Hilton
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://wohnheim-juelich.npage.de/"
+                                             target="_blank"
+                        >
+                                          Jan von Werth Straße (Jülich)
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.kawo1.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Kastanienweg 1
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.kawo2.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Kastanienweg 2
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="https://www.kawo3.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Kastanienweg 3
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="https://www.kullenhof.de"
+                                             target="_blank"
+                        >
+                                          Kullenhof
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.mmweg.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Mattschö Moll Weg
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.oih.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Otto Intze Haus (Türme)
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.oph.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Otto Petersen Haus (Türme)
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.woschi.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Schillerstraße
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.seilgraben.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Seilgraben
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="https://www.scj1.de"
+                                             target="_blank"
+                        >
+                                          Solar Campus (Jülich)
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="https://www.solar-campus-2.de/"
+                                             target="_blank"
+                        >
+                                          Solar Campus II (Jülich)
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://www.dorf.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Studentendorf
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="https://www2.weh.rwth-aachen.de"
+                                             target="_blank"
+                        >
+                                          WEH &amp; TvK (Türme)
+                                      </a>
+                        
+                                 </li>
+                            </ul>
+                  </li>
+                      <li class="has-submenu">
+                        <span 
+                           class="is-separator"
+                              aria-haspopup="true"
+                           >
+                           Miscellaneous
+                        </span>
+         
+                            <ul class="navbar__submenu level-2" aria-hidden="true" >
+                                     <li>
+                                       <a
+                                          href="http://intranet.saw.rwth-aachen.de"
+                                             target="_blank"
+                        >
+                                          Intranet
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="https://www.studierendenwerk-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Studierendenwerk Aachen
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="https://bewerberportal.stw.rwth-aachen.de/"
+                                             target="_blank"
+                        >
+                                          Studierendenwerk Application Portal
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="https://www.triangelac.de"
+                                             target="_blank"
+                        >
+                                          Triangel
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="https://www.wohnheime.rwth-aachen.de"
+                                             target="_blank"
+                        >
+                                          WHR Aachen
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="./../../en/impressum-en/"
+                                             target="_self"
+                        >
+                                          Disclaimer
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="./../../en/datenschutzerklaerung-en/"
+                                             target="_self"
+                        >
+                                          Privacy Policy
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="./../../en/kontaktformular-en/"
+                                             target="_self"
+                        >
+                                          Contactform
+                                      </a>
+                        
+                                 </li>
+                                     <li>
+                                       <a
+                                          href="http://aachen.wikia.com/wiki/Wohnheimbars"
+                                             target="_blank"
+                        >
+                                          Dorm bars in Aachen
+                                      </a>
+                        
+                                 </li>
+                            </ul>
+                  </li>
+                      <li class="mobile-menu-fix">
+                        <span 
+                           class="is-separator"
+         >
+                           .
+                        </span>
+         
+                  </li>
+             </ul>
+            </nav>
+   
+   
+         
+   
+
+
 </header>
 <main class="page">
       <article class="content">
@@ -526,15 +564,11 @@
          </div>
 
          <div class="entry-wrapper content__entry">           
-            <p align="justify">Unser Wohnheim liegt etwa 10 min Fußweg vom RWTH Hauptgebäude entfernt in einem Wohngebiet.</p>
-<p align="justify">Die Busanbindung ist durch die Linien 13 (verkehrt auf dem Außenring) und 12/22 (verkehren zwischen Campus Melaten und Stolberg) sehr gut.</p>
-<p align="justify">Vermietet werden hier etwa 17 qm große Einzelapartments mit Miniküche und eigenem Bad mit Dusche und eine 3-Zimmer Wohngemeinschaft (13 qm, 19 qm und 32 qm) mit Küche, Bad mit Dusche und Gäste-WC. Die Apartments und einzelne WG-Zimmer sind ausgestattet mit einem Kleiderschrank, einem Regal, einem Schreibtisch und einem Stuhl.</p>
-<p align="justify">Die Miete (Apartments) liegt derzeit bei 247€ inkl. Nebenkosten und Kabelanschluss. Die Miete der Wohngemeinschaft liegt derzeit bei 202€ bis 302€ inkl. Nebenkosten und Kabelanschluss.</p>
-<p align="justify">Die maximale Wohnzeit beträgt 3 Jahre und 6 Monate, bei einer Kündigungsfrist von 8 Wochen.</p>
-<p align="justify">Über diese Grundausstattung hinaus gibt es in unserem Wohnheim diverse Annehmlichkeiten, die durch das Engagement vieler HausbewohnerInnen ermöglicht werden.</p>
-<p align="justify">Dazu zählen: Internetzugang über die Netzwerk-AG gegen geringe Gebühr, Gemeinschafts- und Lernraum, Sportraum, Bastelkeller, Grillplatz, Waschküche, Fahrradkeller und die Wohnheimskneipe Triangel.</p>
-<p align="justify">In unserem Wohnheim wohnen 174 Studierende vieler Fachrichtungen und Nationaliäten gemeinschaftlich zusammen.</p>
-<p align="justify">Wir verstehen uns als eine große WG und nutzen unsere gemeinschaftlichen Einrichtungen auch als solche. So grillen wir das ganze Jahr über zusammen auf unserem Grillplatz und treffen uns montags in unserer Hauskneipe. Die Beteiligung an diesen Aktivitäten erwarten wir auch von neuen Mietern.</p>
+            <p align="justify">Our dorm houses 174 students of various nationalities and academic disciplines. It is located halfway between the city centre and the university hospital in a residential area, and is a 10 min walk from the RWTH main building.</p>
+<p align="justify">Bus lines 12/22/23 connect our dorm at bus stop “Am Weißenberg” with Campus Melaten and Stolberg, and line 13 at stop “Turmstraße” goes to the main train station or the RWTH main building.</p>
+<p align="justify">The residences are exclusively apartments of about 17 square meters, partially furnished, with kitchenette and bathroom. Our dorm also provides one shared apartment with 3 rooms (13, 19 and 32 square meters), each room partially furnished, with kitchen, bathroom and guest bathroom. The monthly rent for an apartment is currently 247€ including all utilities. The monthly rent for one of the shared apartments room is currently 202€ – 302€ including all utilities. Cable and Internet access (the latter by surcharge) are available. We also have a bar, a community room, a gym, a workshop, bicycle storage, a parking lot (secured by barrier), barbecue area and a laundry room. The nearest bus stop is about 60m away.</p>
+<p align="justify">You can be a resident here for up to a maximum of 3 years and 6 months with a cancelation period of 8 weeks.</p>
+<p align="justify">Together, the residents of our dorm form a community. When you move in, you become a part of it. We have barbecues quite often in the backyard of our house and meet every Monday evening in the house bar, “Triangel”. We encourage every newcomer to join us in one of those activities.</p>
 <p align="justify"> </p>
 <p align="justify"> </p>
 <div class="post__iframe"><iframe width="600" height="450" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2523.0385057308067!2d6.065115712632971!3d50.77485977153778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c099810e87f97d%3A0xa1a1a981237c0b1e!2sStudentenwohnheim%20Am%20Wei%C3%9Fenberg!5e0!3m2!1sde!2sde!4v1747680242030!5m2!1sde!2sde" allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>            
