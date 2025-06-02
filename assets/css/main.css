@@ -1,5 +1,5 @@
 :root{
---logo-height:200px;
+--logo-height:250px;
 }
 *,
 *:before,
@@ -646,7 +646,7 @@ textarea {
   margin-right: auto;
   order: 1;
 }
-.logo > img {
+.logo > svg {
   height: var(--logo-height);
   -o-object-fit: contain;
      object-fit: contain;
