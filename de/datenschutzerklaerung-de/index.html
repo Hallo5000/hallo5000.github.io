@@ -9,7 +9,8 @@
 			currentLang = "de";
 			localStorage.setItem("currentLang", currentLang);
 		}
-		document.getElementsByTagName("html")[0].setAttribute("lang", currentLang);
+		/* wird jetzt durch head.hbs geregelt 
+		document.getElementsByTagName("html")[0].setAttribute("lang", currentLang);*/
 		langchange(currentLang);
 	}
 	
@@ -21,7 +22,7 @@
 			possibleLangs.forEach(returnToHome);
 			function returnToHome(x){
 				if(currentURL.includes("/"+x+"/")){
-					newURL = currentURL.replace("/"+x+"/home-"+x+"/index.html", "/index.html");
+					newURL = currentURL.replace("/"+x+"/home-"+x+"/", "/");
 				}
 			}
 			localStorage.setItem("currentLang", lang);
@@ -40,12 +41,17 @@
 		}
 		else{
 			if(lang == "de") return;
-			newURL = currentURL.replace("/index.html", "/"+lang+"/home-"+lang+"/index.html");
+			if(currentURL.includes("index.html")){
+				newURL = currentURL.replace("/index.html", "/"+lang+"/home-"+lang+"/index.html");
+			}else{
+				newURL = newURL+lang+"/home-"+lang+"/index.html";
+			}
 		}
 		localStorage.setItem("currentLang", lang);
     if(currentURL != newURL) window.location.assign(newURL);
   }
   //]]></script><script type="text/javascript" defer="defer">//<![CDATA[
+	console.log("LOADED");
 	var currentLang = localStorage.getItem("currentLang") || "de";
 	if(possibleLangs.includes(currentLang)){
 		localStorage.setItem("currentLang", currentLang);
