@@ -776,7 +776,7 @@ textarea {
   position: relative;
   width: auto;
 }
-/* Underline on Hover - but its not working because of other "after" sudo-classes
+/* Underline on Hover - but its not working because of other "after" pseudo-classes
 .navbar .navbar__menu li::after {
   height: 2px;
   width: 100%;
