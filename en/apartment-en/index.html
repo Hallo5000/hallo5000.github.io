@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Apartment - SAW - Studenten am Weißenberg</title><meta name="description" content="single-apartment Would you like to find out more about the apartments? 17m² is the amount of space you’ll have to yourself. That’s obviously not much, but sometimes less is more and most people find it quite comfy once they have made themselves at home. If&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="./../../en/apartment-en/"><link rel="stylesheet" href="./../../assets/css/style.css?v=0de8d203b4a51d286be90ad9ac8a8ada"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"./../../en/apartment-en/"},"headline":"Apartment","datePublished":"2025-05-30T18:06+02:00","dateModified":"2025-05-31T21:28+02:00","image":{"@type":"ImageObject","url":"./../../media/website/SaW_Logo_adaptive.svg","height":3889,"width":3889},"description":"single-apartment Would you like to find out more about the apartments? 17m² is the amount of space you’ll have to yourself. That’s obviously not much, but sometimes less is more and most people find it quite comfy once they have made themselves at home. If&hellip;","author":{"@type":"Person","name":"SAW","url":"./../../authors/saw/"},"publisher":{"@type":"Organization","name":"SAW","logo":{"@type":"ImageObject","url":"./../../media/website/SaW_Logo_adaptive.svg","height":3889,"width":3889}}}</script><noscript><style>img[loading] {
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Apartment - SAW - Studenten am Weißenberg</title><meta name="description" content="single-apartment Would you like to find out more about the apartments? 17m² is the amount of space you’ll have to yourself. That’s obviously not much, but sometimes less is more and most people find it quite comfy once they have made themselves at home. If&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="./../../en/apartment-en/"><link rel="stylesheet" href="./../../assets/css/style.css?v=c527a04ce5aded6a43a0de9642b216a8"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"./../../en/apartment-en/"},"headline":"Apartment","datePublished":"2025-05-30T18:06+02:00","dateModified":"2025-05-31T21:28+02:00","image":{"@type":"ImageObject","url":"./../../media/website/SaW_Logo_adaptive.svg","height":3889,"width":3889},"description":"single-apartment Would you like to find out more about the apartments? 17m² is the amount of space you’ll have to yourself. That’s obviously not much, but sometimes less is more and most people find it quite comfy once they have made themselves at home. If&hellip;","author":{"@type":"Person","name":"SAW","url":"./../../authors/saw/"},"publisher":{"@type":"Organization","name":"SAW","logo":{"@type":"ImageObject","url":"./../../media/website/SaW_Logo_adaptive.svg","height":3889,"width":3889}}}</script><noscript><style>img[loading] {
                     opacity: 1;
                 }</style></noscript><script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css"></head><body class="page-template"><div class="socialbar"><ul><li class="facebook"><a target="_blank" href="https://www.facebook.com/groups/181642091888519/"><ion-icon name="logo-facebook"></ion-icon></a></li><li class="instagram"><ion-icon name="logo-instagram"></ion-icon></li></ul></div><div class="lang-selector"><a href="" onclick="langchange('de');" data-language="german"><span class="fi fi-de"></span></a> <a href="" onclick="langchange('en');" data-language="english"><span class="fi fi-gb"></span></a></div><script type="text/javascript">//<![CDATA[
 	function getPrevLang(){
@@ -51,7 +51,6 @@
     if(currentURL != newURL) window.location.assign(newURL);
   }
   //]]></script><script type="text/javascript" defer="defer">//<![CDATA[
-	console.log("LOADED");
 	var currentLang = localStorage.getItem("currentLang") || "de";
 	if(possibleLangs.includes(currentLang)){
 		localStorage.setItem("currentLang", currentLang);
@@ -115,8 +114,140 @@
 		}
 	}
 //]]></script><script type="text/javascript" defer="defer">//<![CDATA[
-	document.getElementById("SubmitButtonInContactForm").innerHTML = document.getElementById("SubmitButtonInContactForm").innerHTML+" <ion-icon name='arrow-forward-outline'></ion-icon>";
-	document.getElementById("char-counter").innerHTML = "0/"+Array.from(document.getElementsByClassName("contact-inputs")).filter(x => x.tagName.toLowerCase() == "textarea")[0].getAttribute("maxlength");
+	/*if(document.getElementById("SubmitButtonInContactForm") != null && document.getElementById("char-counter") != null)*/ 
+try{
+		document.getElementById("SubmitButtonInContactForm").innerHTML = document.getElementById("SubmitButtonInContactForm").innerHTML+" <ion-icon name='arrow-forward-outline'></ion-icon>";
+		document.getElementById("char-counter").innerHTML = "0/"+Array.from(document.getElementsByClassName("contact-inputs")).filter(x => x.tagName.toLowerCase() == "textarea")[0].getAttribute("maxlength");
+
+
+subjectinput.onfocus = function () {
+  subject.style.display = 'block';
+};
+
+window.addEventListener("mousedown", function(event) {
+	console.log(event.target);
+	if (event.target != subjectinput && event.target != subject && !Array.from(subject.children).includes(event.target)) {
+  	subject.style.display = "none";
+	}
+});
+
+for (let option of subject.options) {
+  option.addEventListener("click", function () {
+		if(option.value == "emptySpace"){
+			subjectinput.value = "";
+		}else{
+    	subjectinput.value = option.value;
+    }
+		subject.style.display = 'none';
+		option.classList.remove("active");
+  });
+};
+
+subjectinput.oninput = function() {
+  currentFocus = -1;
+  var text = subjectinput.value.toUpperCase();
+  for (let option of subject.options) {
+    if(option.value.toUpperCase().indexOf(text) > -1){
+      option.style.display = "block";
+  	}else if(option.value == "emptySpace"){
+			option.style.display = "block";
+		}else{
+    	option.style.display = "none";
+    }
+  };
+}
+var currentFocus = -1;
+subjectinput.onkeydown = function(e) {
+  if(e.keyCode == 40){ /* "Arrow-Down"-Key */
+  	currentFocus++;
+  	addActive(subject.options);
+  }
+  else if(e.keyCode == 38){ /* "Arrow-Up"-Key */
+  	currentFocus--;
+  	addActive(subject.options);
+  }
+  else if(e.keyCode == 13){ /* "Enter"-Key */
+    if (currentFocus > -1) {
+    	e.preventDefault();
+    	/*and simulate a click on the "active" item:*/
+    	if (subject.options) {
+				subject.options[currentFocus].click();
+			}
+    }else {
+			subject.style.display = 'none';
+		}
+  }else if(e.keyCode == 9){ /* "Tab"-Key */
+		subject.style.display = 'none';
+	}
+}
+
+	}catch(e){}
+
+function addActive(x) {
+    if (!x) return false;
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    x[currentFocus].classList.add("active");
+  }
+  function removeActive(x) {
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("active");
+    }
+  }
+//]]></script><script type="text/javascript" defer="defer">//<![CDATA[
+	try{
+	
+	setInterval(() => scrollSlide(1), 15000);
+	
+  let prev = document.getElementById("prev-button");
+	let next = document.getElementById("next-button");
+	prev.addEventListener("click", () => scrollSlide(-1));
+  next.addEventListener("click", () => scrollSlide(1));
+  prev.addEventListener("mouseleave", () => prev.blur());
+  next.addEventListener("mouseleave", () => next.blur());
+	
+	document.getElementById("scrollable").addEventListener("mouseover", () => prev.style.setProperty("visibility", "visible"));
+	document.getElementById("scrollable").addEventListener("mouseover", () => next.style.setProperty("visibility", "visible"));
+	document.getElementById("scrollable").addEventListener("mouseout", () => prev.style.setProperty("visibility", "hidden"));
+	document.getElementById("scrollable").addEventListener("mouseout", () => next.style.setProperty("visibility", "hidden"));
+	
+	document.getElementById("prev-button").addEventListener("mouseover", () => prev.style.setProperty("visibility", "visible"));
+	document.getElementById("prev-button").addEventListener("mouseover", () => next.style.setProperty("visibility", "visible"));
+	document.getElementById("prev-button").addEventListener("mouseout", () => prev.style.setProperty("visibility", "hidden"));
+	document.getElementById("prev-button").addEventListener("mouseout", () => next.style.setProperty("visibility", "hidden"));
+	
+	document.getElementById("next-button").addEventListener("mouseover", () => prev.style.setProperty("visibility", "visible"));
+	document.getElementById("next-button").addEventListener("mouseover", () => next.style.setProperty("visibility", "visible"));
+	document.getElementById("next-button").addEventListener("mouseout", () => prev.style.setProperty("visibility", "hidden"));
+	document.getElementById("next-button").addEventListener("mouseout", () => next.style.setProperty("visibility", "hidden"));
+	
+	
+	function scrollSlide(direction){
+		if(document.getElementById("scrollable").scrollLeft + document.getElementById("scrollable").lastChild.clientWidth + 10 >= document.getElementById("scrollable").scrollWidth && direction==1) {
+			document.getElementById("scrollable").scrollTo({
+                    top: 0,
+                    left: 0,
+                    behavior: "smooth"
+                });
+			return;
+		}
+		if(document.getElementById("scrollable").scrollLeft == 0 && direction == -1) {
+			document.getElementById("scrollable").scrollBy({
+                    top: 0,
+                    left: (document.getElementById("scrollable").childElementCount-1)*(document.getElementById("scrollable").clientWidth)+1,
+                    behavior: "smooth"
+                });
+			return;
+		}
+  	document.getElementById("scrollable").scrollBy({
+                    top: 0,
+                    left: direction*(document.getElementById("scrollable").clientWidth),
+                    behavior: "smooth"
+                });
+  }
+	
+	}catch(e){}
 //]]></script></div></div></main><footer class="footer"><div class="wrapper"><div class="footer__copyright"><p>Powered by Publii</p></div></div></footer><script defer="defer" src="./../../assets/js/scripts.min.js?v=700105c316933a8202041b6415abb233"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script><script>var images = document.querySelectorAll('img[loading]');
         for (var i = 0; i < images.length; i++) {
             if (images[i].complete) {
