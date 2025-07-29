@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "4a031b9acce6409826a0a613a4020f75"
+        "md5": "0477d7c0381cd49d53aa2684191285e0"
     },
     {
         "path": "accordion",
@@ -12,7 +12,7 @@
     {
         "path": "/accordion/index.html",
         "type": "file",
-        "md5": "5ba107f025a4028cf835352f501cfd0d"
+        "md5": "bcb6e04614fdf35c873b8f6cc0b53806"
     },
     {
         "path": "assets",
@@ -37,7 +37,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "c527a04ce5aded6a43a0de9642b216a8"
+        "md5": "59b7fad5069b40a9b7ff2c71ee233594"
     },
     {
         "path": "assets/dynamic",
@@ -92,7 +92,7 @@
     {
         "path": "/authors/saw/index.html",
         "type": "file",
-        "md5": "6eba050304696c29157f3f76cd60507d"
+        "md5": "2b79faea6653ebc7c73adf72e451819b"
     },
     {
         "path": "Bad_01.09.2015.pdf",
@@ -107,7 +107,7 @@
     {
         "path": "/contact-form/index.html",
         "type": "file",
-        "md5": "62459e25b337288fcf9387869ccef2ec"
+        "md5": "da91389bdb2615e6071fac3019b832b7"
     },
     {
         "path": "de",
@@ -122,7 +122,7 @@
     {
         "path": "/de/ags-de/index.html",
         "type": "file",
-        "md5": "6a9ebf0c16a532cf316689f32d724f37"
+        "md5": "5e48348c5dce420706b6ba0537df3e57"
     },
     {
         "path": "de/andere-formulare-und-dokumente-de",
@@ -132,7 +132,7 @@
     {
         "path": "/de/andere-formulare-und-dokumente-de/index.html",
         "type": "file",
-        "md5": "eb35ee92e0e6347ab7070fb81b9e0ce5"
+        "md5": "015e0425388f6d28b215ded1dd51f687"
     },
     {
         "path": "de/apartment-de",
@@ -142,7 +142,7 @@
     {
         "path": "/de/apartment-de/index.html",
         "type": "file",
-        "md5": "783589497d6da57d75fcd55ff26c163f"
+        "md5": "af3c46c740476de10fa9550ad529fa44"
     },
     {
         "path": "de/belegung-de",
@@ -152,7 +152,7 @@
     {
         "path": "/de/belegung-de/index.html",
         "type": "file",
-        "md5": "a40fbca50e894f2ae12cc93fc63ebb2b"
+        "md5": "33e4397b881e0c38bc2b3a63ae27ef84"
     },
     {
         "path": "de/blog-de",
@@ -162,7 +162,7 @@
     {
         "path": "/de/blog-de/index.html",
         "type": "file",
-        "md5": "fc06a8d95f21dca278d2318718ecea86"
+        "md5": "65c5315d3c0c428d39f543e61968ef96"
     },
     {
         "path": "de/datenschutzerklaerung-de",
@@ -172,7 +172,7 @@
     {
         "path": "/de/datenschutzerklaerung-de/index.html",
         "type": "file",
-        "md5": "99cbbd35317c38422aff7ad7890a6b2b"
+        "md5": "473328a0bfcb549af53467bf03a18ed5"
     },
     {
         "path": "de/faq-de",
@@ -182,7 +182,7 @@
     {
         "path": "/de/faq-de/index.html",
         "type": "file",
-        "md5": "ac1d89401163437b655ce45477fa8d54"
+        "md5": "7fa0f1b9de03088164cb858c6bd5dff2"
     },
     {
         "path": "de/impressum-de",
@@ -192,12 +192,12 @@
     {
         "path": "/de/impressum-de/index.html",
         "type": "file",
-        "md5": "c828feb9c53c15c0d292dc77f2b6bce5"
+        "md5": "201b30b2ccedd0a9e0e33f7c2ae7cb77"
     },
     {
         "path": "/de/index.html",
         "type": "file",
-        "md5": "83d8e4928545176444a694267724b534"
+        "md5": "5950e102e233ba14e7056dd1348fd631"
     },
     {
         "path": "de/kontaktformular-de",
@@ -207,7 +207,7 @@
     {
         "path": "/de/kontaktformular-de/index.html",
         "type": "file",
-        "md5": "cad3f21f6deba91faf17c68ccf4556ac"
+        "md5": "931ad22de69e82e1d0478e1b306c67bf"
     },
     {
         "path": "de/triangel-de",
@@ -217,7 +217,7 @@
     {
         "path": "/de/triangel-de/index.html",
         "type": "file",
-        "md5": "921c7c2c368dccc3424f019d745a64eb"
+        "md5": "7e5e68443ac9ba80db67db5f76b64dc9"
     },
     {
         "path": "de/untervermietung-de",
@@ -227,7 +227,7 @@
     {
         "path": "/de/untervermietung-de/index.html",
         "type": "file",
-        "md5": "bf3fd5bc24a3d5bbc9223e9d8de8c259"
+        "md5": "f5083e6516df5edd0e40a4a8e4176a08"
     },
     {
         "path": "de/verein-de",
@@ -237,7 +237,7 @@
     {
         "path": "/de/verein-de/index.html",
         "type": "file",
-        "md5": "9d07527567fe953cce41622888bcf032"
+        "md5": "81175568baeec030d55e59d9756dd3e4"
     },
     {
         "path": "de/wohnheim-de",
@@ -247,7 +247,7 @@
     {
         "path": "/de/wohnheim-de/index.html",
         "type": "file",
-        "md5": "ff936378911f5a7edc10ee5da7c074bb"
+        "md5": "09fc3b8e22afa9d37f1874d8180ee59a"
     },
     {
         "path": "einfach_oder_ordentlich-ausfüllbar.pdf",
@@ -277,7 +277,7 @@
     {
         "path": "/en/ags-en/index.html",
         "type": "file",
-        "md5": "46caa69457f7b064127254a2d91cfd20"
+        "md5": "544c145de50d955eb6498884e03b9aff"
     },
     {
         "path": "en/andere-formulare-und-dokumente-en",
@@ -287,7 +287,7 @@
     {
         "path": "/en/andere-formulare-und-dokumente-en/index.html",
         "type": "file",
-        "md5": "49e7a754961b27ca9342b17ea8261cd3"
+        "md5": "123ccdc0f0c128aa44f05e79364b3b4f"
     },
     {
         "path": "en/apartment-en",
@@ -297,7 +297,7 @@
     {
         "path": "/en/apartment-en/index.html",
         "type": "file",
-        "md5": "5f1b5e16cdeb8a438898a4572d53c041"
+        "md5": "8ddb153c452a5b3a6121c84bab6dbd1a"
     },
     {
         "path": "en/belegung-en",
@@ -307,7 +307,7 @@
     {
         "path": "/en/belegung-en/index.html",
         "type": "file",
-        "md5": "9b82e7615a65ceebd20e8190a6bfafad"
+        "md5": "8b347034bc86a7e0b4323776171ceae7"
     },
     {
         "path": "en/blog-en",
@@ -317,7 +317,7 @@
     {
         "path": "/en/blog-en/index.html",
         "type": "file",
-        "md5": "e9e25cd142b87dec97f7d41601ffb45a"
+        "md5": "d03f88000565afc46ebc29e59724829a"
     },
     {
         "path": "en/datenschutzerklaerung-en",
@@ -327,7 +327,7 @@
     {
         "path": "/en/datenschutzerklaerung-en/index.html",
         "type": "file",
-        "md5": "4d0f09ffa009d7201b516fc898664b27"
+        "md5": "622a953cce9de6bca00aadf911437fa4"
     },
     {
         "path": "en/faq-en",
@@ -337,7 +337,7 @@
     {
         "path": "/en/faq-en/index.html",
         "type": "file",
-        "md5": "3485ca041e4c11e5e3c8239683d883f2"
+        "md5": "11d0100fd9a1fa6d2dd3430ac1f3148c"
     },
     {
         "path": "en/home-en",
@@ -347,7 +347,7 @@
     {
         "path": "/en/home-en/index.html",
         "type": "file",
-        "md5": "42a1449f76bba4ca8a2cc1e8e30b1b64"
+        "md5": "c3b908f8b18edf8753d741fbfa5dd42c"
     },
     {
         "path": "en/impressum-en",
@@ -357,12 +357,12 @@
     {
         "path": "/en/impressum-en/index.html",
         "type": "file",
-        "md5": "3482a98cff408c9e7c987eaa16e6582a"
+        "md5": "48e8d987f86e13324bbb4e839f87deff"
     },
     {
         "path": "/en/index.html",
         "type": "file",
-        "md5": "b964e07ee7df023bfbd58379ac10fd08"
+        "md5": "be5d4de29151789325e83021d15a8205"
     },
     {
         "path": "en/kontaktformular-en",
@@ -372,7 +372,7 @@
     {
         "path": "/en/kontaktformular-en/index.html",
         "type": "file",
-        "md5": "011721a2286c7439e5448c71f51848fb"
+        "md5": "a708949038c1b71b98df5cab44660f3e"
     },
     {
         "path": "en/triangel-en",
@@ -382,7 +382,7 @@
     {
         "path": "/en/triangel-en/index.html",
         "type": "file",
-        "md5": "11c92aee935edb73b95258a82609a7d5"
+        "md5": "363589ccb30c10a488e743002a202be0"
     },
     {
         "path": "en/untervermietung-en",
@@ -392,7 +392,7 @@
     {
         "path": "/en/untervermietung-en/index.html",
         "type": "file",
-        "md5": "24af75e8ae6aa33af01f1fb5ac065bd8"
+        "md5": "08723cd50f09722a8152ce4ec918f4d0"
     },
     {
         "path": "en/verein-en",
@@ -402,7 +402,7 @@
     {
         "path": "/en/verein-en/index.html",
         "type": "file",
-        "md5": "e9c07e0dcf9b0e9f8c211230a3a083af"
+        "md5": "7f27559bd93b8d8ff587e5cf4b025891"
     },
     {
         "path": "en/wohnheim-en",
@@ -412,7 +412,7 @@
     {
         "path": "/en/wohnheim-en/index.html",
         "type": "file",
-        "md5": "6024defa06db43e56fac53833995da0b"
+        "md5": "83daad089ddfe3fdf10f44d1da70559a"
     },
     {
         "path": "Grundriss_01.09.2015.pdf",
@@ -427,7 +427,7 @@
     {
         "path": "index.html",
         "type": "file",
-        "md5": "6a95e4c9f5921bbfc3fed190122609c2"
+        "md5": "d6684cbe2ac44bc73733f209219cc1fe"
     },
     {
         "path": "media",
@@ -435,159 +435,59 @@
         "md5": false
     },
     {
-        "path": "media/posts",
+        "path": "media/files",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "media/posts/1",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "media/posts/1/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_001-2xl.jpg",
+        "path": "/media/files/DJI_20250619191711_0046_D.JPG",
         "type": "file",
-        "md5": "f773070d2bd952460bdb732631306157"
+        "md5": "b41d1e7722c83740d6313d0accbde20c"
     },
     {
-        "path": "/media/posts/1/responsive/slideshow_img_001-lg.jpg",
+        "path": "/media/files/DJI_20250619191745_0047_D.JPG",
         "type": "file",
-        "md5": "f773070d2bd952460bdb732631306157"
+        "md5": "c647084415ffe18e2e1fe19952d7057b"
     },
     {
-        "path": "/media/posts/1/responsive/slideshow_img_001-md.jpg",
+        "path": "/media/files/DJI_20250619191912_0048_D.JPG",
         "type": "file",
-        "md5": "b52e8fd13a6c5f0c443e2fa2790dbf66"
+        "md5": "8cb6e370670c6f7f76a4f7ddab684bde"
     },
     {
-        "path": "/media/posts/1/responsive/slideshow_img_001-sm.jpg",
+        "path": "/media/files/DJI_20250619192028_0049_D.JPG",
         "type": "file",
-        "md5": "f89f6f282452aa8b94df581403351742"
+        "md5": "464980007d007c9ab2468e2dbac50f3b"
     },
     {
-        "path": "/media/posts/1/responsive/slideshow_img_001-xl.jpg",
+        "path": "/media/files/DJI_20250619192236_0050_D.JPG",
         "type": "file",
-        "md5": "f773070d2bd952460bdb732631306157"
+        "md5": "a2da9c10ce965cadc40b571652cbb746"
     },
     {
-        "path": "/media/posts/1/responsive/slideshow_img_001-xs.jpg",
+        "path": "/media/files/DJI_20250619192257_0051_D.JPG",
         "type": "file",
-        "md5": "d17c0170adaed89663e57c67a7174911"
+        "md5": "c976c56ae178730f34752a773c13168e"
     },
     {
-        "path": "/media/posts/1/responsive/slideshow_img_002-2xl.jpg",
+        "path": "/media/files/DJI_20250619192347_0052_D.JPG",
         "type": "file",
-        "md5": "0aaaeefb66241f6b3c69357ebd0b9073"
+        "md5": "61358d9e1cb3886c72e3460034f83032"
     },
     {
-        "path": "/media/posts/1/responsive/slideshow_img_002-lg.jpg",
+        "path": "/media/files/DJI_20250619192429_0053_D.JPG",
         "type": "file",
-        "md5": "0aaaeefb66241f6b3c69357ebd0b9073"
+        "md5": "b90a23abff7482cb1cd433bffc355fbc"
     },
     {
-        "path": "/media/posts/1/responsive/slideshow_img_002-md.jpg",
+        "path": "/media/files/DJI_20250619192757_0054_D.JPG",
         "type": "file",
-        "md5": "0aaaeefb66241f6b3c69357ebd0b9073"
+        "md5": "daf1e7f09dd1f48e0daa3dcbafe80095"
     },
     {
-        "path": "/media/posts/1/responsive/slideshow_img_002-sm.jpg",
+        "path": "/media/files/DJI_20250619192811_0055_D.JPG",
         "type": "file",
-        "md5": "48abfb55da58cbb95d72589fa063befa"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_002-xl.jpg",
-        "type": "file",
-        "md5": "0aaaeefb66241f6b3c69357ebd0b9073"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_002-xs.jpg",
-        "type": "file",
-        "md5": "9daee3c58bed5b2834c31b47ba3c086d"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_003-2xl.jpg",
-        "type": "file",
-        "md5": "9afd0c60b15ba973dc5f01014cf5c5ef"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_003-lg.jpg",
-        "type": "file",
-        "md5": "9afd0c60b15ba973dc5f01014cf5c5ef"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_003-md.jpg",
-        "type": "file",
-        "md5": "9afd0c60b15ba973dc5f01014cf5c5ef"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_003-sm.jpg",
-        "type": "file",
-        "md5": "35b0a6855feeb4e21ec9c85b2818acfb"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_003-xl.jpg",
-        "type": "file",
-        "md5": "9afd0c60b15ba973dc5f01014cf5c5ef"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_003-xs.jpg",
-        "type": "file",
-        "md5": "8845f58c7f5b24caac7af1f27f4ee929"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_004-2xl.jpg",
-        "type": "file",
-        "md5": "f6c5b858b58a24ca4161af966a47bfba"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_004-lg.jpg",
-        "type": "file",
-        "md5": "f6c5b858b58a24ca4161af966a47bfba"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_004-md.jpg",
-        "type": "file",
-        "md5": "f6c5b858b58a24ca4161af966a47bfba"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_004-sm.jpg",
-        "type": "file",
-        "md5": "36d02d0c5539992d0c142a28fb9a08bc"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_004-xl.jpg",
-        "type": "file",
-        "md5": "f6c5b858b58a24ca4161af966a47bfba"
-    },
-    {
-        "path": "/media/posts/1/responsive/slideshow_img_004-xs.jpg",
-        "type": "file",
-        "md5": "0a48da1190eab5e52f4f71724328d821"
-    },
-    {
-        "path": "/media/posts/1/slideshow_img_001.jpg",
-        "type": "file",
-        "md5": "20cc760244650afdfe93415dc1311d51"
-    },
-    {
-        "path": "/media/posts/1/slideshow_img_002.jpg",
-        "type": "file",
-        "md5": "93d43cfab7d055a25e043607fc29dc9f"
-    },
-    {
-        "path": "/media/posts/1/slideshow_img_003.jpg",
-        "type": "file",
-        "md5": "4f194010cccdc16c63885e08684ddb47"
-    },
-    {
-        "path": "/media/posts/1/slideshow_img_004.jpg",
-        "type": "file",
-        "md5": "207de7ba42feba5584a41732f388762e"
+        "md5": "d1e884fb34c59bc216403632ab9ddb2b"
     },
     {
         "path": "media/website",
@@ -642,7 +542,7 @@
     {
         "path": "/slideshow-carousel/index.html",
         "type": "file",
-        "md5": "f75e074a30255486f78a2b3f0514df7e"
+        "md5": "531369039d2ff263c312c18951746c7d"
     },
     {
         "path": "tags",
@@ -652,7 +552,7 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "24a1e326a069fc124c00977c866045c3"
+        "md5": "ab2c577ac819cd4177605143eb786888"
     },
     {
         "path": "Vordruck-Kündigung-1.pdf",
