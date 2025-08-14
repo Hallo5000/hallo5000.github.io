@@ -2,17 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "0477d7c0381cd49d53aa2684191285e0"
-    },
-    {
-        "path": "accordion",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/accordion/index.html",
-        "type": "file",
-        "md5": "bcb6e04614fdf35c873b8f6cc0b53806"
+        "md5": "060ff2e6298d56cd480e98362ff115a3"
     },
     {
         "path": "assets",
@@ -37,7 +27,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "59b7fad5069b40a9b7ff2c71ee233594"
+        "md5": "e1b3637c4fe44ad8a0d57ee1012a5340"
     },
     {
         "path": "assets/dynamic",
@@ -92,22 +82,12 @@
     {
         "path": "/authors/saw/index.html",
         "type": "file",
-        "md5": "2b79faea6653ebc7c73adf72e451819b"
+        "md5": "e5ca708e6486f4c2246f51ad6a162ae0"
     },
     {
         "path": "Bad_01.09.2015.pdf",
         "type": "file",
         "md5": "aaf5ef63e88507ce987b6478e9d70289"
-    },
-    {
-        "path": "contact-form",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/contact-form/index.html",
-        "type": "file",
-        "md5": "da91389bdb2615e6071fac3019b832b7"
     },
     {
         "path": "de",
@@ -122,7 +102,7 @@
     {
         "path": "/de/ags-de/index.html",
         "type": "file",
-        "md5": "5e48348c5dce420706b6ba0537df3e57"
+        "md5": "c17be2573bb64df524b5b0f79affca1e"
     },
     {
         "path": "de/andere-formulare-und-dokumente-de",
@@ -132,7 +112,7 @@
     {
         "path": "/de/andere-formulare-und-dokumente-de/index.html",
         "type": "file",
-        "md5": "015e0425388f6d28b215ded1dd51f687"
+        "md5": "224c4581a76138c27bfc1783f1e36bf8"
     },
     {
         "path": "de/apartment-de",
@@ -142,7 +122,7 @@
     {
         "path": "/de/apartment-de/index.html",
         "type": "file",
-        "md5": "af3c46c740476de10fa9550ad529fa44"
+        "md5": "efac2f2b6334abcb3e5b96ba66e74cb9"
     },
     {
         "path": "de/belegung-de",
@@ -152,7 +132,7 @@
     {
         "path": "/de/belegung-de/index.html",
         "type": "file",
-        "md5": "33e4397b881e0c38bc2b3a63ae27ef84"
+        "md5": "f886658321135c40ccefde02d1b9542f"
     },
     {
         "path": "de/blog-de",
@@ -162,7 +142,7 @@
     {
         "path": "/de/blog-de/index.html",
         "type": "file",
-        "md5": "65c5315d3c0c428d39f543e61968ef96"
+        "md5": "5c4824518b6bc38f14e788007e79783a"
     },
     {
         "path": "de/datenschutzerklaerung-de",
@@ -172,7 +152,7 @@
     {
         "path": "/de/datenschutzerklaerung-de/index.html",
         "type": "file",
-        "md5": "473328a0bfcb549af53467bf03a18ed5"
+        "md5": "6553ed64aee17921a1f48b7bf3cb7b35"
     },
     {
         "path": "de/faq-de",
@@ -182,7 +162,7 @@
     {
         "path": "/de/faq-de/index.html",
         "type": "file",
-        "md5": "7fa0f1b9de03088164cb858c6bd5dff2"
+        "md5": "aff4dff35afd2b162edcee1803a4aa7b"
     },
     {
         "path": "de/impressum-de",
@@ -192,12 +172,12 @@
     {
         "path": "/de/impressum-de/index.html",
         "type": "file",
-        "md5": "201b30b2ccedd0a9e0e33f7c2ae7cb77"
+        "md5": "4dcfb0fb6504b4b2cf22bbcaa89c8efa"
     },
     {
         "path": "/de/index.html",
         "type": "file",
-        "md5": "5950e102e233ba14e7056dd1348fd631"
+        "md5": "c19922569a7454ab27bac392c431c5bb"
     },
     {
         "path": "de/kontaktformular-de",
@@ -207,7 +187,7 @@
     {
         "path": "/de/kontaktformular-de/index.html",
         "type": "file",
-        "md5": "931ad22de69e82e1d0478e1b306c67bf"
+        "md5": "97a156a01b275c785bbb3ed35732c84c"
     },
     {
         "path": "de/triangel-de",
@@ -217,7 +197,7 @@
     {
         "path": "/de/triangel-de/index.html",
         "type": "file",
-        "md5": "7e5e68443ac9ba80db67db5f76b64dc9"
+        "md5": "12bee04be51e424f01d012a802527352"
     },
     {
         "path": "de/untervermietung-de",
@@ -227,7 +207,7 @@
     {
         "path": "/de/untervermietung-de/index.html",
         "type": "file",
-        "md5": "f5083e6516df5edd0e40a4a8e4176a08"
+        "md5": "e737fdfa807aedfb33e886c177844f60"
     },
     {
         "path": "de/verein-de",
@@ -237,7 +217,7 @@
     {
         "path": "/de/verein-de/index.html",
         "type": "file",
-        "md5": "81175568baeec030d55e59d9756dd3e4"
+        "md5": "fd3c5a6381ba640a135b8d17209bc356"
     },
     {
         "path": "de/wohnheim-de",
@@ -247,7 +227,7 @@
     {
         "path": "/de/wohnheim-de/index.html",
         "type": "file",
-        "md5": "09fc3b8e22afa9d37f1874d8180ee59a"
+        "md5": "ed6bcab4e596b7b58f9661abed06bc45"
     },
     {
         "path": "einfach_oder_ordentlich-ausfüllbar.pdf",
@@ -277,7 +257,7 @@
     {
         "path": "/en/ags-en/index.html",
         "type": "file",
-        "md5": "544c145de50d955eb6498884e03b9aff"
+        "md5": "dc290fdbc545185aa60d791fd4230894"
     },
     {
         "path": "en/andere-formulare-und-dokumente-en",
@@ -287,7 +267,7 @@
     {
         "path": "/en/andere-formulare-und-dokumente-en/index.html",
         "type": "file",
-        "md5": "123ccdc0f0c128aa44f05e79364b3b4f"
+        "md5": "620242d433cc1093ab263fe879a27a4a"
     },
     {
         "path": "en/apartment-en",
@@ -297,7 +277,7 @@
     {
         "path": "/en/apartment-en/index.html",
         "type": "file",
-        "md5": "8ddb153c452a5b3a6121c84bab6dbd1a"
+        "md5": "f8c84e4a1f56757d1e0e2e75cdc84c27"
     },
     {
         "path": "en/belegung-en",
@@ -307,7 +287,7 @@
     {
         "path": "/en/belegung-en/index.html",
         "type": "file",
-        "md5": "8b347034bc86a7e0b4323776171ceae7"
+        "md5": "dbaa27f563a857c2c36bccc06971bce1"
     },
     {
         "path": "en/blog-en",
@@ -317,7 +297,7 @@
     {
         "path": "/en/blog-en/index.html",
         "type": "file",
-        "md5": "d03f88000565afc46ebc29e59724829a"
+        "md5": "17a9938cd46f75769f691fb00b1d4ad4"
     },
     {
         "path": "en/datenschutzerklaerung-en",
@@ -327,7 +307,7 @@
     {
         "path": "/en/datenschutzerklaerung-en/index.html",
         "type": "file",
-        "md5": "622a953cce9de6bca00aadf911437fa4"
+        "md5": "29f1aecedeee2bb678d576e0200fb3c2"
     },
     {
         "path": "en/faq-en",
@@ -337,7 +317,7 @@
     {
         "path": "/en/faq-en/index.html",
         "type": "file",
-        "md5": "11d0100fd9a1fa6d2dd3430ac1f3148c"
+        "md5": "84c9d497420eb745891268b0fee14e01"
     },
     {
         "path": "en/home-en",
@@ -347,7 +327,7 @@
     {
         "path": "/en/home-en/index.html",
         "type": "file",
-        "md5": "c3b908f8b18edf8753d741fbfa5dd42c"
+        "md5": "ceca7a9da13ce9d8e271485f8a914bef"
     },
     {
         "path": "en/impressum-en",
@@ -357,12 +337,12 @@
     {
         "path": "/en/impressum-en/index.html",
         "type": "file",
-        "md5": "48e8d987f86e13324bbb4e839f87deff"
+        "md5": "fbd68108f4fdf9376ac6aca8c6dfc315"
     },
     {
         "path": "/en/index.html",
         "type": "file",
-        "md5": "be5d4de29151789325e83021d15a8205"
+        "md5": "808a2cb2e43557480ab3830a05936156"
     },
     {
         "path": "en/kontaktformular-en",
@@ -372,7 +352,7 @@
     {
         "path": "/en/kontaktformular-en/index.html",
         "type": "file",
-        "md5": "a708949038c1b71b98df5cab44660f3e"
+        "md5": "4aefb02091b8a092eabb3934463196ff"
     },
     {
         "path": "en/triangel-en",
@@ -382,7 +362,7 @@
     {
         "path": "/en/triangel-en/index.html",
         "type": "file",
-        "md5": "363589ccb30c10a488e743002a202be0"
+        "md5": "1f28cac6f921046b2894a2d21975f1f2"
     },
     {
         "path": "en/untervermietung-en",
@@ -392,7 +372,7 @@
     {
         "path": "/en/untervermietung-en/index.html",
         "type": "file",
-        "md5": "08723cd50f09722a8152ce4ec918f4d0"
+        "md5": "c30380b4877b3b2aa53cea30321d431d"
     },
     {
         "path": "en/verein-en",
@@ -402,7 +382,7 @@
     {
         "path": "/en/verein-en/index.html",
         "type": "file",
-        "md5": "7f27559bd93b8d8ff587e5cf4b025891"
+        "md5": "243248b65de4d48d089b091f524e17ac"
     },
     {
         "path": "en/wohnheim-en",
@@ -412,7 +392,7 @@
     {
         "path": "/en/wohnheim-en/index.html",
         "type": "file",
-        "md5": "83daad089ddfe3fdf10f44d1da70559a"
+        "md5": "9c4e8fcce391791d7de722a0f134684c"
     },
     {
         "path": "Grundriss_01.09.2015.pdf",
@@ -427,7 +407,7 @@
     {
         "path": "index.html",
         "type": "file",
-        "md5": "d6684cbe2ac44bc73733f209219cc1fe"
+        "md5": "d63d6cee5d34020cc10a4f91063500c2"
     },
     {
         "path": "media",
@@ -438,6 +418,11 @@
         "path": "media/files",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "/media/files/Bad_01.09.2015.pdf",
+        "type": "file",
+        "md5": "aaf5ef63e88507ce987b6478e9d70289"
     },
     {
         "path": "/media/files/DJI_20250619191711_0046_D.JPG",
@@ -490,6 +475,76 @@
         "md5": "d1e884fb34c59bc216403632ab9ddb2b"
     },
     {
+        "path": "/media/files/einfach_oder_ordentlich-ausfüllbar.pdf",
+        "type": "file",
+        "md5": "f44fab43dbd1275b86ddc3a7e3420116"
+    },
+    {
+        "path": "/media/files/einfach_oder_ordentlich.pdf",
+        "type": "file",
+        "md5": "9d9f1920752223c1625caf0185890006"
+    },
+    {
+        "path": "/media/files/einzugsflyer_web.pdf",
+        "type": "file",
+        "md5": "5913348fb41f4d1f0d31392a27452460"
+    },
+    {
+        "path": "/media/files/Grundriss_01.09.2015.pdf",
+        "type": "file",
+        "md5": "3171254f5000766616b42fa893df5595"
+    },
+    {
+        "path": "/media/files/Grundriss_unmöbliert.pdf",
+        "type": "file",
+        "md5": "166bd6f07fadd54bb7bff4ef07412d76"
+    },
+    {
+        "path": "/media/files/Nutzungsordnung_2011.11.04.pdf",
+        "type": "file",
+        "md5": "1b7ff1932990c253db49767adb9be9c5"
+    },
+    {
+        "path": "/media/files/Satzung_Aktuell.pdf",
+        "type": "file",
+        "md5": "df575fb0e18b25d0c6bd4bc704cb02cd"
+    },
+    {
+        "path": "/media/files/sawev_beitritt_merkblatt.pdf",
+        "type": "file",
+        "md5": "e4f4ff47a95c200c7764d17ba6a28891"
+    },
+    {
+        "path": "/media/files/SAW_eV_Kurzinfos.pdf",
+        "type": "file",
+        "md5": "1663b116a9d7ff48d6f8f46dbacfaf09"
+    },
+    {
+        "path": "/media/files/SAW_eV_Satzung_Stand_022012.pdf",
+        "type": "file",
+        "md5": "8ed515e79d7ea739591bf3d2d27bf678"
+    },
+    {
+        "path": "/media/files/SEPA-ausfüllbar.pdf",
+        "type": "file",
+        "md5": "72a57c55c487f0b0ab4cae4143fc4b91"
+    },
+    {
+        "path": "/media/files/Vordruck-Kündigung-1.pdf",
+        "type": "file",
+        "md5": "29e5212fd178dff8be24ca3b7869a773"
+    },
+    {
+        "path": "/media/files/Zimmerabwicklung_möbliert_01.09.2015.pdf",
+        "type": "file",
+        "md5": "42a698041c938c8405bb6b62162c1919"
+    },
+    {
+        "path": "/media/files/Zimmerabwicklung_unmöbliert_01.09.2015.pdf",
+        "type": "file",
+        "md5": "31222375be1cbbdb37a94be6cb38cba2"
+    },
+    {
         "path": "media/website",
         "type": "directory",
         "md5": false
@@ -535,16 +590,6 @@
         "md5": "72a57c55c487f0b0ab4cae4143fc4b91"
     },
     {
-        "path": "slideshow-carousel",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/slideshow-carousel/index.html",
-        "type": "file",
-        "md5": "531369039d2ff263c312c18951746c7d"
-    },
-    {
         "path": "tags",
         "type": "directory",
         "md5": false
@@ -552,7 +597,7 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "ab2c577ac819cd4177605143eb786888"
+        "md5": "df14f153d1f9df9e579acbb61a77e8cc"
     },
     {
         "path": "Vordruck-Kündigung-1.pdf",
